@@ -44,6 +44,9 @@ ul {
 	color: black;
 	font-weight: bold;
 }
+th {
+	text-align: center;
+}
 .footer {
 	clear: both;
 }
