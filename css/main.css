@@ -46,6 +46,17 @@ ul {
 	color: black;
 	font-weight: bold;
 }
+p.sum-text {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 0;
+	margin-right: -10px;
+}
+	/* Modifying Bootstrap 3 */
+.progress-summary {
+	padding-top: 5px;
+}
+	/*---------------------*/
 th {
 	text-align: center;
 	background-color: #4682b4;
