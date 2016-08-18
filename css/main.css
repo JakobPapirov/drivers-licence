@@ -1,5 +1,6 @@
 body {
 	padding-top: 150px; /* To offset the fixed-top navbar */
+	background-image: url('graphics/tesla_model_s_black-wallpaper-1920x1080.jpg');
 }
 .container {
 	max-width: 960px;
@@ -30,7 +31,6 @@ hr {
 	border-bottom: dashed;
 	border-color: #777;
 	padding: 0;
-	text-align: center;
 }
 .inbetween-sections {
 	border-width: 5px;
@@ -46,6 +46,14 @@ ul {
 }
 th {
 	text-align: center;
+	background-color: #4682b4;
+}
+td {
+	background-color: #b5cde1;
+}
+.completed {
+	padding: 0;
+	margin: 5px;
 }
 .footer {
 	clear: both;
