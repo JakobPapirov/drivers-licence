@@ -1,6 +1,7 @@
 body {
 	padding-top: 150px; /* To offset the fixed-top navbar */
-	background-image: url('graphics/tesla_model_s_black-wallpaper-1920x1080.jpg');
+	/*background-image: url('graphics/tesla_model_s_black-wallpaper-1920x1080.jpg');*/
+	background-color: #b5e1c9;
 }
 .container {
 	max-width: 960px;
@@ -8,6 +9,7 @@ body {
 	border-radius: 10px;
 	border: 5px solid black;
 	margin: auto;
+	background-color: #f4cbcf;
 }
 .page-title {
 	padding: 0;
@@ -51,6 +53,16 @@ th {
 td {
 	background-color: #b5cde1;
 }
+	td.sum {
+		background-color: #e1c9b5;
+	}
+	td.sum-text {
+		text-align: right;
+		font-weight: bold;
+	}
+	td.number {
+		text-align: center;
+	}
 .completed {
 	padding: 0;
 	margin: 5px;
