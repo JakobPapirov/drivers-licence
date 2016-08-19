@@ -1,7 +1,7 @@
 body {
 	padding-top: 150px; /* To offset the fixed-top navbar */
 	/*background-image: url('graphics/tesla_model_s_black-wallpaper-1920x1080.jpg');*/
-	background-color: #b5e1c9;
+	background-color: #b5e1c9; /* Greenish */
 }
 .container {
 	max-width: 960px;
@@ -9,7 +9,7 @@ body {
 	border-radius: 10px;
 	border: 5px solid black;
 	margin: auto;
-	background-color: #f4cbcf;
+	background-color: #f4cbcf; /* Pinkish */
 }
 .page-title {
 	padding: 0;
@@ -57,6 +57,7 @@ p.sum-text {
 	padding-top: 5px;
 }
 	/*---------------------*/
+/* Table, section 2 */
 th {
 	text-align: center;
 	background-color: #4682b4;
@@ -74,10 +75,23 @@ td {
 	td.number {
 		text-align: center;
 	}
+/*-------------------------*/
 .completed {
 	padding: 0;
 	margin: 5px;
 }
-.footer {
-	clear: both;
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+nav {
+	position: fixed; /*So it doesn't move with scroll */
+	bottom: 40%; /*So it stops 40 % from the bottom of viewport */
+	right: 10px; /* Offset from the right, has to account for scrollbar on page */
+	width: 100px; /* Width of nav */
+	border: 3px solid black; /*  */
+	border-radius: 10%; /* Slightly curved edges */
+	background-color: #e1d2c5;
 }
