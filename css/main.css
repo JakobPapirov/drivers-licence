@@ -1,7 +1,10 @@
 body {
 	padding-top: 150px; /* To offset the fixed-top navbar */
-	/*background-image: url('graphics/tesla_model_s_black-wallpaper-1920x1080.jpg');*/
-	background-color: #b5e1c9; /* Greenish */
+	background-image: url('../graphics/tesla_model_s_black-wallpaper-1920x1080.jpg');
+	/*background-color: #b5e1c9; /* Greenish */ 
+}
+body:hover {
+	content: "http://wallpaperswide.com/tesla_model_s_black-wallpapers.html";
 }
 .container {
 	max-width: 960px;
@@ -10,6 +13,7 @@ body {
 	border: 5px solid black;
 	margin: auto;
 	background-color: #f4cbcf; /* Pinkish */
+	opacity: 0.9;
 }
 .page-title {
 	padding: 0;
@@ -85,7 +89,9 @@ footer {
 	color: white;
 	background-color: black;
 }
-
+.resources {
+	text-align: center;
+}
 nav {
 	position: fixed; /*So it doesn't move with scroll */
 	bottom: 40%; /*So it stops 40 % from the bottom of viewport */
